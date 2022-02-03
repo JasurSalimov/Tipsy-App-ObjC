@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D817C6D27ABBD72006EC84C /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D817C6C27ABBD72006EC84C /* Fibonacci.m */; };
 		1D844D1D27AA5B9500D3B50C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D844D1C27AA5B9500D3B50C /* AppDelegate.m */; };
 		1D844D2027AA5B9500D3B50C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D844D1F27AA5B9500D3B50C /* SceneDelegate.m */; };
 		1D844D2327AA5B9500D3B50C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D844D2227AA5B9500D3B50C /* ViewController.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D817C6B27ABBD72006EC84C /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
+		1D817C6C27ABBD72006EC84C /* Fibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fibonacci.m; sourceTree = "<group>"; };
 		1D844D1827AA5B9500D3B50C /* TipsyAppObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipsyAppObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D844D1B27AA5B9500D3B50C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D844D1C27AA5B9500D3B50C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D817C6A27ABBD60006EC84C /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				1D817C6B27ABBD72006EC84C /* Fibonacci.h */,
+				1D817C6C27ABBD72006EC84C /* Fibonacci.m */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
 		1D844D0F27AA5B9500D3B50C = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +89,7 @@
 				1D844D1F27AA5B9500D3B50C /* SceneDelegate.m */,
 				1D844D2127AA5B9500D3B50C /* ViewController.h */,
 				1D844D2227AA5B9500D3B50C /* ViewController.m */,
+				1D817C6A27ABBD60006EC84C /* Fibonacci */,
 				1D844D3927AA653600D3B50C /* Bmi Group */,
 				1D844D3B27AA654800D3B50C /* Tipsy Group */,
 				1D844D2427AA5B9500D3B50C /* Main.storyboard */,
@@ -183,6 +196,7 @@
 				1D844D2327AA5B9500D3B50C /* ViewController.m in Sources */,
 				1D844D1D27AA5B9500D3B50C /* AppDelegate.m in Sources */,
 				1D844D3727AA61AC00D3B50C /* Bmi.m in Sources */,
+				1D817C6D27ABBD72006EC84C /* Fibonacci.m in Sources */,
 				1D844D3F27AA73FF00D3B50C /* Tipsy.m in Sources */,
 				1D844D2E27AA5B9600D3B50C /* main.m in Sources */,
 				1D844D2027AA5B9500D3B50C /* SceneDelegate.m in Sources */,

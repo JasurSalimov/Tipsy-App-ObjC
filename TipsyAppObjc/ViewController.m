@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "Bmi.h"
 #import "Tipsy.h"
+#import "Fibonacci.h"
 @interface ViewController ()
 
 @end
@@ -26,14 +27,14 @@
     
     UIButton *bmi = [UIButton buttonWithType:UIButtonTypeSystem];
     [bmi addTarget:self action:@selector(bmiPressed) forControlEvents:UIControlEventTouchUpInside];
-    [bmi setFrame:CGRectMake(40, screenHeight/2 - 25, screenWidth - 80, 50)];
+    [bmi setFrame:CGRectMake(40, screenHeight/3 - 25, screenWidth - 80, 50)];
     bmi.backgroundColor = [UIColor grayColor];
     bmi.layer.cornerRadius = 8;
     [self.view addSubview:bmi];
     
     
     UILabel *bmiLabel = [[UILabel alloc]init];
-    bmiLabel.frame = CGRectMake(40, screenHeight/2 - 25, screenWidth - 80, 50);
+    bmiLabel.frame = CGRectMake(40, screenHeight/3 - 25, screenWidth - 80, 50);
     bmiLabel.text = @"Calculate BMI";
     bmiLabel.userInteractionEnabled = NO;
     bmiLabel.textAlignment = NSTextAlignmentCenter;
@@ -55,6 +56,20 @@
     tipsyLabel.textColor = [UIColor whiteColor];
     [self.view addSubview:tipsyLabel];
     
+    UIButton *fibonacci = [[UIButton alloc]init];
+    fibonacci.frame = CGRectMake(40, tipsy.frame.origin.y + 80, screenWidth - 80, 50);
+    [fibonacci addTarget:self action:@selector(fibonacciPressed) forControlEvents:UIControlEventTouchUpInside];
+    fibonacci.backgroundColor = [UIColor grayColor];
+    fibonacci.layer.cornerRadius = 8;
+    [self.view addSubview:fibonacci];
+    
+    UILabel *fibLabel = [[UILabel alloc]init];
+    fibLabel.frame = CGRectMake(40, tipsy.frame.origin.y + 80, screenWidth - 80, 50);
+    fibLabel.userInteractionEnabled = false;
+    fibLabel.text = @"Fibonacci/Prime";
+    fibLabel.textAlignment = NSTextAlignmentCenter;
+    fibLabel.textColor = [UIColor whiteColor];
+    [self.view addSubview:fibLabel];
     
     
 }
@@ -70,5 +85,11 @@
     Tipsy *vc = [[Tipsy alloc]init];
     vc.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:vc  animated:true completion:NULL];
+}
+-(void)fibonacciPressed{
+    NSLog(@"Prime/Fibonacci App");
+    Fibonacci *vc = [[Fibonacci alloc]init];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:vc animated:true completion:NULL];
 }
 @end
