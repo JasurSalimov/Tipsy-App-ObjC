@@ -9,6 +9,7 @@
 #import "Bmi.h"
 #import "Tipsy.h"
 #import "Fibonacci.h"
+#import "TipsyAppObjc-Swift.h"
 @interface ViewController ()
 
 @end
@@ -18,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self propertyDeclarations];
+    [self usingSwiftClassInObjc];
     // Do any additional setup after loading the view.
 }
 -(void)propertyDeclarations{
@@ -71,6 +73,20 @@
     fibLabel.textColor = [UIColor whiteColor];
     [self.view addSubview:fibLabel];
     
+    UIButton *swift = [[UIButton alloc]init];
+    swift.frame = CGRectMake(40, fibonacci.frame.origin.y + 80, screenWidth - 80, 50);
+    [swift addTarget:self action:@selector(swiftPressed) forControlEvents:UIControlEventTouchUpInside];
+    swift.backgroundColor = [UIColor grayColor];
+    swift.layer.cornerRadius = 8;
+    [self.view addSubview:swift];
+    
+    UILabel *swLabel = [[UILabel alloc]init];
+    swLabel.frame = CGRectMake(40, fibonacci.frame.origin.y + 80, screenWidth - 80, 50);
+    swLabel.userInteractionEnabled = false;
+    swLabel.text = @"Swift Part";
+    swLabel.textAlignment = NSTextAlignmentCenter;
+    swLabel.textColor = [UIColor whiteColor];
+    [self.view addSubview:swLabel];
     
 }
 
@@ -91,5 +107,24 @@
     Fibonacci *vc = [[Fibonacci alloc]init];
     vc.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:vc animated:true completion:NULL];
+}
+-(void)swiftPressed{
+    NSLog(@"Swift pressed");
+    MathVC *vc = [[MathVC alloc]init];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:vc animated:true completion:NULL];
+}
+-(void)usingSwiftClassInObjc{
+    NSLog(@"Since it is learning project I will just implement all the stuff to be seen in terminal and exclude not necessary UIPart");
+    Math *math = [[Math alloc]init];
+    NSUInteger answer;
+    answer = [math addWithNumOne:10 numTwo:10];
+    NSLog(@"%lu", (unsigned long)answer);
+    answer = [math subtractWithNumOne:15 numTwo:5];
+    NSLog(@"%lu", answer);
+    answer = [math divideWithNumOne:50 numTwo:5];
+    NSLog(@"%lu", answer);
+    float flNumber = [math multiplyWithNumOne:14 numTwo:10];
+    NSLog(@"%f", flNumber);
 }
 @end

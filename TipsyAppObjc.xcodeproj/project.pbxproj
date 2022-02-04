@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D350DEB27AD259F00999AAB /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D350DEA27AD259F00999AAB /* Math.swift */; };
+		1D350DEE27AD270B00999AAB /* MathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D350DEC27AD270B00999AAB /* MathVC.swift */; };
+		1D350DEF27AD270B00999AAB /* MathVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D350DED27AD270B00999AAB /* MathVC.xib */; };
+		1D350DF327AD2E3600999AAB /* ObjcVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D350DF227AD2E3600999AAB /* ObjcVC.m */; };
 		1D817C6D27ABBD72006EC84C /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D817C6C27ABBD72006EC84C /* Fibonacci.m */; };
 		1D844D1D27AA5B9500D3B50C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D844D1C27AA5B9500D3B50C /* AppDelegate.m */; };
 		1D844D2027AA5B9500D3B50C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D844D1F27AA5B9500D3B50C /* SceneDelegate.m */; };
@@ -22,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D350DE927AD259E00999AAB /* TipsyAppObjc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TipsyAppObjc-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D350DEA27AD259F00999AAB /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		1D350DEC27AD270B00999AAB /* MathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathVC.swift; sourceTree = "<group>"; };
+		1D350DED27AD270B00999AAB /* MathVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MathVC.xib; sourceTree = "<group>"; };
+		1D350DF127AD2E3600999AAB /* ObjcVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcVC.h; sourceTree = "<group>"; };
+		1D350DF227AD2E3600999AAB /* ObjcVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcVC.m; sourceTree = "<group>"; };
 		1D817C6B27ABBD72006EC84C /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
 		1D817C6C27ABBD72006EC84C /* Fibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fibonacci.m; sourceTree = "<group>"; };
 		1D844D1827AA5B9500D3B50C /* TipsyAppObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipsyAppObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +65,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D350DE827AD250F00999AAB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1D350DEA27AD259F00999AAB /* Math.swift */,
+				1D350DEC27AD270B00999AAB /* MathVC.swift */,
+				1D350DED27AD270B00999AAB /* MathVC.xib */,
+				1D350DE927AD259E00999AAB /* TipsyAppObjc-Bridging-Header.h */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1D350DF027AD2E1700999AAB /* ObjcVc */ = {
+			isa = PBXGroup;
+			children = (
+				1D350DF127AD2E3600999AAB /* ObjcVC.h */,
+				1D350DF227AD2E3600999AAB /* ObjcVC.m */,
+			);
+			path = ObjcVc;
+			sourceTree = "<group>";
+		};
 		1D817C6A27ABBD60006EC84C /* Fibonacci */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +122,8 @@
 				1D817C6A27ABBD60006EC84C /* Fibonacci */,
 				1D844D3927AA653600D3B50C /* Bmi Group */,
 				1D844D3B27AA654800D3B50C /* Tipsy Group */,
+				1D350DE827AD250F00999AAB /* New Group */,
+				1D350DF027AD2E1700999AAB /* ObjcVc */,
 				1D844D2427AA5B9500D3B50C /* Main.storyboard */,
 				1D844D2727AA5B9600D3B50C /* Assets.xcassets */,
 				1D844D2927AA5B9600D3B50C /* LaunchScreen.storyboard */,
@@ -152,6 +184,7 @@
 				TargetAttributes = {
 					1D844D1727AA5B9500D3B50C = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -180,6 +213,7 @@
 			files = (
 				1D844D3827AA61AC00D3B50C /* Bmi.xib in Resources */,
 				1D844D2B27AA5B9600D3B50C /* LaunchScreen.storyboard in Resources */,
+				1D350DEF27AD270B00999AAB /* MathVC.xib in Resources */,
 				1D844D4027AA73FF00D3B50C /* Tipsy.xib in Resources */,
 				1D844D2827AA5B9600D3B50C /* Assets.xcassets in Resources */,
 				1D844D2627AA5B9500D3B50C /* Main.storyboard in Resources */,
@@ -200,6 +234,9 @@
 				1D844D3F27AA73FF00D3B50C /* Tipsy.m in Sources */,
 				1D844D2E27AA5B9600D3B50C /* main.m in Sources */,
 				1D844D2027AA5B9500D3B50C /* SceneDelegate.m in Sources */,
+				1D350DEB27AD259F00999AAB /* Math.swift in Sources */,
+				1D350DF327AD2E3600999AAB /* ObjcVC.m in Sources */,
+				1D350DEE27AD270B00999AAB /* MathVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K64M8673AP;
@@ -360,6 +398,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasursalimov.TipsyAppObjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TipsyAppObjc/New Group/TipsyAppObjc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -369,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K64M8673AP;
@@ -387,6 +429,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasursalimov.TipsyAppObjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TipsyAppObjc/New Group/TipsyAppObjc-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
