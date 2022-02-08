@@ -53,6 +53,7 @@ extension MathVC{
     @objc func objcPressed(){
         debugPrint("Goin to Objc VC again")
         let vc = ObjcVC()
+        vc.rocketLaunch()
         self.present(vc, animated: true, completion: nil)
         
     }

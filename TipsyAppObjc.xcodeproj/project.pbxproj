@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10FC28C560854F89F0144DC3 /* Pods_TipsyAppObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD3E48578FC900AAD905191 /* Pods_TipsyAppObjc.framework */; };
 		1D350DEB27AD259F00999AAB /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D350DEA27AD259F00999AAB /* Math.swift */; };
 		1D350DEE27AD270B00999AAB /* MathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D350DEC27AD270B00999AAB /* MathVC.swift */; };
 		1D350DEF27AD270B00999AAB /* MathVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D350DED27AD270B00999AAB /* MathVC.xib */; };
 		1D350DF327AD2E3600999AAB /* ObjcVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D350DF227AD2E3600999AAB /* ObjcVC.m */; };
+		1D4641B227B22F9A00519CCF /* WaterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4641B027B22F9A00519CCF /* WaterVC.m */; };
+		1D4641B327B22F9A00519CCF /* WaterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D4641B127B22F9A00519CCF /* WaterVC.xib */; };
+		1D4641B627B232F500519CCF /* WaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4641B427B232F500519CCF /* WaterCell.swift */; };
+		1D4641B727B232F500519CCF /* WaterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D4641B527B232F500519CCF /* WaterCell.xib */; };
 		1D817C6D27ABBD72006EC84C /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D817C6C27ABBD72006EC84C /* Fibonacci.m */; };
 		1D844D1D27AA5B9500D3B50C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D844D1C27AA5B9500D3B50C /* AppDelegate.m */; };
 		1D844D2027AA5B9500D3B50C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D844D1F27AA5B9500D3B50C /* SceneDelegate.m */; };
@@ -32,6 +37,11 @@
 		1D350DED27AD270B00999AAB /* MathVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MathVC.xib; sourceTree = "<group>"; };
 		1D350DF127AD2E3600999AAB /* ObjcVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcVC.h; sourceTree = "<group>"; };
 		1D350DF227AD2E3600999AAB /* ObjcVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcVC.m; sourceTree = "<group>"; };
+		1D4641AF27B22F9A00519CCF /* WaterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterVC.h; sourceTree = "<group>"; };
+		1D4641B027B22F9A00519CCF /* WaterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterVC.m; sourceTree = "<group>"; };
+		1D4641B127B22F9A00519CCF /* WaterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaterVC.xib; sourceTree = "<group>"; };
+		1D4641B427B232F500519CCF /* WaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCell.swift; sourceTree = "<group>"; };
+		1D4641B527B232F500519CCF /* WaterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaterCell.xib; sourceTree = "<group>"; };
 		1D817C6B27ABBD72006EC84C /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
 		1D817C6C27ABBD72006EC84C /* Fibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fibonacci.m; sourceTree = "<group>"; };
 		1D844D1827AA5B9500D3B50C /* TipsyAppObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipsyAppObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +62,9 @@
 		1D844D3C27AA73FF00D3B50C /* Tipsy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tipsy.h; sourceTree = "<group>"; };
 		1D844D3D27AA73FF00D3B50C /* Tipsy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tipsy.m; sourceTree = "<group>"; };
 		1D844D3E27AA73FF00D3B50C /* Tipsy.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tipsy.xib; sourceTree = "<group>"; };
+		60BA3C41F9E09B94CF4113E2 /* Pods-TipsyAppObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipsyAppObjc.debug.xcconfig"; path = "Target Support Files/Pods-TipsyAppObjc/Pods-TipsyAppObjc.debug.xcconfig"; sourceTree = "<group>"; };
+		7FD3E48578FC900AAD905191 /* Pods_TipsyAppObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipsyAppObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3F36BAD9FCF5458E9992AB /* Pods-TipsyAppObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipsyAppObjc.release.xcconfig"; path = "Target Support Files/Pods-TipsyAppObjc/Pods-TipsyAppObjc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +72,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FC28C560854F89F0144DC3 /* Pods_TipsyAppObjc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CC09EE1D0A8BA632468C578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD3E48578FC900AAD905191 /* Pods_TipsyAppObjc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D350DE827AD250F00999AAB /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,18 @@
 			path = ObjcVc;
 			sourceTree = "<group>";
 		};
+		1D4641AE27B22F7300519CCF /* Water Group */ = {
+			isa = PBXGroup;
+			children = (
+				1D4641AF27B22F9A00519CCF /* WaterVC.h */,
+				1D4641B027B22F9A00519CCF /* WaterVC.m */,
+				1D4641B127B22F9A00519CCF /* WaterVC.xib */,
+				1D4641B427B232F500519CCF /* WaterCell.swift */,
+				1D4641B527B232F500519CCF /* WaterCell.xib */,
+			);
+			path = "Water Group";
+			sourceTree = "<group>";
+		};
 		1D817C6A27ABBD60006EC84C /* Fibonacci */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +133,8 @@
 			children = (
 				1D844D1A27AA5B9500D3B50C /* TipsyAppObjc */,
 				1D844D1927AA5B9500D3B50C /* Products */,
+				4A5B26828E80DCF0716E2B1A /* Pods */,
+				0CC09EE1D0A8BA632468C578 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +155,7 @@
 				1D844D1F27AA5B9500D3B50C /* SceneDelegate.m */,
 				1D844D2127AA5B9500D3B50C /* ViewController.h */,
 				1D844D2227AA5B9500D3B50C /* ViewController.m */,
+				1D4641AE27B22F7300519CCF /* Water Group */,
 				1D817C6A27ABBD60006EC84C /* Fibonacci */,
 				1D844D3927AA653600D3B50C /* Bmi Group */,
 				1D844D3B27AA654800D3B50C /* Tipsy Group */,
@@ -153,6 +190,15 @@
 			path = "Tipsy Group";
 			sourceTree = "<group>";
 		};
+		4A5B26828E80DCF0716E2B1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BA3C41F9E09B94CF4113E2 /* Pods-TipsyAppObjc.debug.xcconfig */,
+				CB3F36BAD9FCF5458E9992AB /* Pods-TipsyAppObjc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D844D3127AA5B9600D3B50C /* Build configuration list for PBXNativeTarget "TipsyAppObjc" */;
 			buildPhases = (
+				A5AEEB7CA1A2BCA863E28616 /* [CP] Check Pods Manifest.lock */,
 				1D844D1427AA5B9500D3B50C /* Sources */,
 				1D844D1527AA5B9500D3B50C /* Frameworks */,
 				1D844D1627AA5B9500D3B50C /* Resources */,
+				04CB131D3002324476EFCE3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D844D3827AA61AC00D3B50C /* Bmi.xib in Resources */,
+				1D4641B727B232F500519CCF /* WaterCell.xib in Resources */,
+				1D4641B327B22F9A00519CCF /* WaterVC.xib in Resources */,
 				1D844D2B27AA5B9600D3B50C /* LaunchScreen.storyboard in Resources */,
 				1D350DEF27AD270B00999AAB /* MathVC.xib in Resources */,
 				1D844D4027AA73FF00D3B50C /* Tipsy.xib in Resources */,
@@ -221,6 +271,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04CB131D3002324476EFCE3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TipsyAppObjc/Pods-TipsyAppObjc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TipsyAppObjc/Pods-TipsyAppObjc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TipsyAppObjc/Pods-TipsyAppObjc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5AEEB7CA1A2BCA863E28616 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipsyAppObjc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D844D1427AA5B9500D3B50C /* Sources */ = {
@@ -232,9 +324,11 @@
 				1D844D3727AA61AC00D3B50C /* Bmi.m in Sources */,
 				1D817C6D27ABBD72006EC84C /* Fibonacci.m in Sources */,
 				1D844D3F27AA73FF00D3B50C /* Tipsy.m in Sources */,
+				1D4641B627B232F500519CCF /* WaterCell.swift in Sources */,
 				1D844D2E27AA5B9600D3B50C /* main.m in Sources */,
 				1D844D2027AA5B9500D3B50C /* SceneDelegate.m in Sources */,
 				1D350DEB27AD259F00999AAB /* Math.swift in Sources */,
+				1D4641B227B22F9A00519CCF /* WaterVC.m in Sources */,
 				1D350DF327AD2E3600999AAB /* ObjcVC.m in Sources */,
 				1D350DEE27AD270B00999AAB /* MathVC.swift in Sources */,
 			);
@@ -370,12 +464,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		1D844D3227AA5B9600D3B50C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BA3C41F9E09B94CF4113E2 /* Pods-TipsyAppObjc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -407,6 +503,7 @@
 		};
 		1D844D3327AA5B9600D3B50C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3F36BAD9FCF5458E9992AB /* Pods-TipsyAppObjc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

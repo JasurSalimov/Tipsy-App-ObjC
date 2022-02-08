@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "Bmi.h"
 #import "Tipsy.h"
+#import "WaterVC.h"
 #import "Fibonacci.h"
 #import "TipsyAppObjc-Swift.h"
 @interface ViewController ()
@@ -88,6 +89,21 @@
     swLabel.textColor = [UIColor whiteColor];
     [self.view addSubview:swLabel];
     
+    UIButton *water = [[UIButton alloc]init];
+    water.frame = CGRectMake(40, swift.frame.origin.y + 80, screenWidth - 80, 50);
+    [water addTarget:self action:@selector(waterPressed) forControlEvents:UIControlEventTouchUpInside];
+    water.backgroundColor = [UIColor grayColor];
+    water.layer.cornerRadius = 8;
+    [self.view addSubview:water];
+    
+    UILabel *waterLabel = [[UILabel alloc]init];
+    waterLabel.frame = CGRectMake(40, swift.frame.origin.y + 80, screenWidth - 80, 50);
+    waterLabel.userInteractionEnabled = false;
+    waterLabel.text = @"Water Part";
+    waterLabel.textAlignment = NSTextAlignmentCenter;
+    waterLabel.textColor = [UIColor whiteColor];
+    [self.view addSubview:waterLabel];
+    
 }
 
 -(void)bmiPressed{
@@ -126,5 +142,11 @@
     NSLog(@"%lu", answer);
     float flNumber = [math multiplyWithNumOne:14 numTwo:10];
     NSLog(@"%f", flNumber);
+}
+-(void)waterPressed{
+    NSLog(@"Water Part pressed");
+    WaterVC *vc = [[WaterVC alloc]init];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:vc animated:true completion:NULL];
 }
 @end

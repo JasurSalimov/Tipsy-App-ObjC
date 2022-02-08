@@ -21,5 +21,7 @@
 -(void)welcome{
     NSLog(@"You are now in Objc Territory!");
 }
-
+-(void)rocketLaunch{
+    NSLog(@"1..2..3... Rocket is launched");
+}
 @end
